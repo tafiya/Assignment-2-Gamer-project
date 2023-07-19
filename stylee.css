@@ -52,8 +52,9 @@ nav li a img{
 }
 .anchore-tag
 {
-   margin: 17px 24px;
-    
+    padding: 10px 20px;
+   font-weight: 700;
+    border-radius: 5px;
     background: rgba(11, 2, 35, 0.10);
 }
 /* --------------Mobile Device------------------ */
@@ -240,10 +241,54 @@ background-clip: text;
    line-height: 30px;
 }
 .online-card img{
+    
+}
+.image{
     width: 220px;
     height: 250px;
     border-radius: 16px;
+    opacity: 1;
+    display: block;
+    transition: .3s ease;
+    backface-visibility: hidden;
+
 }
+/* -------------------hover-----------; */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+  
+    top: 35%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container:hover .image {
+      filter: brightness(50%);
+  }
+  
+  .container:hover .middle {
+    opacity: 5;
+  }
+
+  
+  .text {
+    color: rgb(237, 25, 25);
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
 .icon-button{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -258,6 +303,10 @@ background-clip: text;
 .button-last img{
     width: 40px;
     height: 20px;
+}
+.button-last:hover{
+    border: 3px solid rgb(240, 78, 192);
+    color: #FF42A5;
 }
 .button-last{
   
@@ -454,7 +503,7 @@ text-align: center;
         padding: 10px;
         grid-template-columns: repeat(1,1fr);
     }
-    .card-1,.card-2,.card-3,.card-4{
+    .container{
         text-align: center;
     }
     .online-title {
@@ -464,7 +513,7 @@ text-align: center;
         font-size: .9rem;
     }
     .online-card p{
-        width: auto;
+        width: 350px;
         font-size: 0.8rem;
     }
     .icon-contrainer{
@@ -473,6 +522,10 @@ text-align: center;
         padding-left: 10px;
         padding-right: 10px;
         grid-template-columns: repeat(3,1fr);
+    }
+    .image{
+        width: auto;
+        height: auto;
     }
     .button-last{
         font-size: 0.5rem;
