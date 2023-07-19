@@ -1,0 +1,505 @@
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+   
+    font-family: 'Work Sans', sans-serif;
+ }
+ header {
+
+   margin-left: 240px;
+    margin-right: 240px;
+    
+    
+}
+ nav{
+    display:flex ;
+    justify-content:space-between ;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.gammer-icon{
+    color: #0B0223;
+    display: flex;
+    align-items: center;
+ 
+       
+}
+.colored-letter {
+    color: rgb(255, 0, 251); /* Color for the specific letter */
+  }
+.gammer-icon img, .footer-icon img{
+    width: 86px;
+    height: 40px;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 1 rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+nav li a img{
+    width: 24px;
+   height: 15px;
+}
+.anchore-tag
+{
+   margin: 17px 24px;
+    
+    background: rgba(11, 2, 35, 0.10);
+}
+/* --------------Mobile Device------------------ */
+
+/* ---------main section-------- */
+
+.banner-contrainer
+{
+   
+    padding-right: 110px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    
+   
+}
+.banner-content{
+    padding-top: 100px;
+    padding-left: 240px; 
+    
+    width:100% ;
+    background-image: url("images/Group\ 14.png");
+    background-size: 100%;
+   
+
+}
+.banner-image{
+    padding-left: 50px;
+}
+
+.banner-image img{
+    
+    width: 80%;
+
+}
+.play-like{
+    color: #0B0223;
+    margin-bottom: 0;
+
+font-size: 3rem;
+font-weight: 600;
+}
+.goat{
+    margin-top: 0;
+    margin-bottom: 0;
+    
+font-size: 5rem;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.goat p{
+   
+    color: #534C64;
+    
+    font-size: 1.2rem;
+    font-weight: 500;
+     line-height: normal;
+}
+.dimg{
+   
+    width: 20px;
+    height: 15px;
+}
+.btn-primary-1{
+    color: #FFF;
+font-size: 1.2rem;
+font-weight: 600;
+padding: 21px 30px;
+border: 0;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+.btn-primary-2{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 21px 30px;
+    border: 0;
+    border-radius: 48px;
+    background: #4EC5F7;
+
+}
+
+.the-gramer{
+    display: flex;
+    gap: 30px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 55px 240px;
+}
+.gramer-image img{
+    width: 100%;
+    height: 100%;
+    
+}
+.gramer-content{
+    text-align: right;
+}
+.gramer-content h1{
+    padding-left: 200px;
+   
+ width: 325px;
+ height: 56px;
+}
+.gramer-color{
+    text-align: right;
+font-size: 3rem;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.gramer-description
+{
+    width: 520px;
+    height: 120px;
+    color: #534C64;
+text-align: right;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.purpose{
+    margin-bottom: 0;
+    color: #534C64;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 45px;
+}
+.unleash{
+    margin-top: 0;
+    color: #534C64;
+font-size: 2rem;
+font-weight: 700;
+line-height: 45px;
+}
+
+.online-game{
+    display: grid;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.online-content{
+    text-align: center;
+     margin: auto;
+
+}
+.online-title{
+
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 0;
+}
+.online-descripotion{  
+    margin-bottom: 50px;
+    color: #727272;
+}
+.funny{
+    margin-left:5px;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-card
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  
+}
+.online-card p{
+    width: 220px;
+    color: #534C64;
+   font-size: 1rem;
+   font-weight: 500;
+   line-height: 30px;
+}
+.online-card img{
+    width: 220px;
+    height: 250px;
+    border-radius: 16px;
+}
+.icon-button{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.icon-contrainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.button-last img{
+    width: 40px;
+    height: 20px;
+}
+.button-last{
+  
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 180px;
+   height: 50px;
+   border: 0;
+   border-radius: 50px;
+background: #FFF;
+
+}
+
+.play-instant{
+    padding-right: 110px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding-left: 439px;
+    padding-right: 240px;
+    margin-top: 30px;
+}
+.intant-header{
+    padding-top: 20px;
+    width: 341px;
+    height: 180px;
+    text-align: right;
+    font-size: 3rem;
+   font-weight: 700;
+   line-height: 60px;
+   margin-bottom: 0;
+}
+.instant-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.instant-description{
+    height: 500px;
+}
+.instant-description p {
+    width: 353px;
+    height: 400px;
+    color: #534C64;
+   text-align: right;
+  
+    font-size: 1.1rem;
+line-height: 30px;
+}
+.instant-image{
+    height: 400px;
+}
+
+.instant-img1{
+    width: 70%;
+    height: 400px;
+    margin-left: 100px;
+}
+.instant-img2{
+    width: 180px;
+height: 200px;
+border-radius: 8px;
+border: 10px solid #FFF;
+background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+position: relative;
+bottom: 180px;
+}
+/* -------------------footer section--------------------------------- */
+footer{
+    background: #0B0223;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.footer-icon{
+    color: #f0eff4;
+   
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+font-size: 3rem;
+font-weight: 700;
+
+}
+.footer-section{
+    color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+     align-items: center;
+      gap: 60px;
+      font-size: 1.2rem;
+font-weight: 600;
+text-align: center;
+}
+.footer-image-section{
+    margin-top: 40px;
+    color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+     align-items: center;
+      gap: 30px;
+      text-align: center;
+
+}
+.footer-privacy-section{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.60);;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+     align-items: center;
+      gap: 40px;
+      font-size: 1rem;
+      text-align: center;
+
+}
+.footer-last-section{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.60);;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     
+      font-size: 1rem;
+}
+@media screen and (max-width:576px) {
+    nav{
+        
+        flex-direction: column;
+    }  
+    nav >ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    header{
+      
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .follow{
+        margin: 0;
+    }
+    /* -------banner------- */
+
+  
+    .banner-contrainer
+    {
+       margin-left: 20px;
+       margin-right: 20px;
+        padding-right: 10px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+       
+    }
+    .banner-content , .banner-image{
+        padding-top: 10px;
+        padding-left: 10px;
+    } 
+    .banner-image img {
+        width: 100%;
+    }
+    /* ----------------------the gramer section------; */
+    .the-gramer{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .gramer-content h1 ,.instant-description p{
+        padding: 10px;
+        text-align: center;
+        width: auto;
+    }
+    .gramer-description{
+        text-align: center;
+        width: auto;
+        margin-bottom: 40px;
+    }
+    .gramer-content{
+        text-align: center;
+    }
+    /* ---------------------online game--------------------; */
+    .online-game ,.online-card ,.play-instant{
+        padding: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card-1,.card-2,.card-3,.card-4{
+        text-align: center;
+    }
+    .online-title {
+        font-size: 1.5rem;
+    }
+    .online-descripotion{
+        font-size: .9rem;
+    }
+    .online-card p{
+        width: auto;
+        font-size: 0.8rem;
+    }
+    .icon-contrainer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .button-last{
+        font-size: 0.5rem;
+        width: 120px;
+    }
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-section {
+        grid-template-columns: repeat(3,1fr);
+    font-size: 1rem;
+    gap: 10px;
+    text-align: center;
+    }
+    .footer-image-section{
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+        gap: 20px;
+    }
+    .footer-privacy-section{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        text-align: center;
+    }
+    .footer-last-section{
+        flex-direction: column;
+    }
+    
+}
