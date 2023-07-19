@@ -556,3 +556,129 @@ text-align: center;
     }
     
 }
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav{
+        
+        flex-direction: column;
+    }  
+    nav >ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    header{
+      
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .follow{
+        margin: 0;
+    }
+    /* -------banner------- */
+
+  
+    .banner-contrainer
+    {
+       margin-left: 20px;
+       margin-right: 20px;
+        padding-right: 10px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+       
+    }
+    .banner-content , .banner-image{
+        padding-top: 10px;
+        padding-left: 10px;
+    } 
+    .banner-image img {
+        width: 100%;
+    }
+    /* ----------------------the gramer section------; */
+    .the-gramer{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .gramer-content h1 ,.instant-description p{
+        padding: 10px;
+        text-align: center;
+        width: auto;
+    }
+    .gramer-description{
+        text-align: center;
+        width: auto;
+        margin-bottom: 40px;
+    }
+    .gramer-content{
+        text-align: center;
+    }
+    /* ---------------------online game--------------------; */
+    .online-game ,.online-card {
+       
+        grid-template-columns: repeat(1,1fr);
+    }
+    .play-instant{
+        padding-left: 200px;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 0;
+    }
+    .instant-image{
+        height: 439px;
+    }
+    .container{
+        text-align: center;
+    }
+    .online-title {
+        font-size: 1.5rem;
+    }
+    .online-descripotion{
+        font-size: .9rem;
+    }
+    .online-card p{
+        width: 350px;
+        font-size: 0.8rem;
+    }
+    .icon-contrainer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .image{
+        width: auto;
+        height: auto;
+    }
+    .button-last{
+        font-size: 0.5rem;
+        width: 120px;
+    }
+    footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-section {
+        grid-template-columns: repeat(3,1fr);
+    font-size: 1rem;
+    gap: 10px;
+    text-align: center;
+    }
+    .footer-image-section{
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+        gap: 20px;
+    }
+    .footer-privacy-section{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        text-align: center;
+    }
+    .footer-last-section{
+        flex-direction: column;
+    }
+    
+}
+
+
